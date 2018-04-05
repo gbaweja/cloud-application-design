@@ -11,4 +11,4 @@ if __name__ == '__main__':
 
     while True:
         for item in pubsub.listen():
-            print(item['data'])
+            print(item['data']
