@@ -4,5 +4,5 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    user = {'username': 'Everyone'}
+    user = {'username': 'Cloud Apps Class'}
     return render_template('index.html', title='Home', user=user)
